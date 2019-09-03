@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    padding: 0 20;
+    margin-top: 5%;
+    transform: translateY(-10%);
+
+}
+.contact_form{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px;
+
+
+} 
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    width: 50%;
+
+}
+.input, .mgs{
+    width: 50%;
+}
+.input .input , .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    margin-bottom: 2px solid tomato;
+    font-display: bold;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+
+}
+.msg textarea{
+    height: 212px;
+
+}
+.msg ::placeholder{
+    color: black;
+}
+.input ::placeholder{
+    font-display: bold;
+    font-size: 20px;
+    color: black;
+}
+
+ button{
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 280px ;
+    text-transform: uppercase;
+    margin-left: -150%;
+}
+button:hover{
+    cursor: pointer;
+}

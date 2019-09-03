@@ -1,0 +1,72 @@
+body{
+    background-image: url("img/bck/bg.jpg");
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+img{
+  
+   margin-top: 20px;
+   margin-left: 20px;
+
+}
+.link{
+    margin-left: 50%;
+    margin-top: -50px;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 35%;
+}
+ul li{
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display:block; 
+}
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 15%;
+    text-decoration-style: solid;
+    color: azure; 
+    font-size: 300%;
+}
+button{
+    background: rgb(20, 90, 220);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30bpx ;
+    text-transform: uppercase;
+    margin-left: 15px;
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
